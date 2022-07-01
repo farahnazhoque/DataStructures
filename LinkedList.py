@@ -5,13 +5,18 @@ class Node:
     self.next_node = next_node
     
   def get_value(self):
-    
+    '''In this function, we are using it to retrieve the data within the Node.
+    '''
     return self.value
   
   def get_next_node(self):
+    '''This function is used to get the next node.
+    '''
     return self.next_node
   
   def set_next_node(self, next_node):
+    '''Here, we are manualling setting the next mode.
+    '''
     self.next_node = next_node
 
 # LinkedList class
